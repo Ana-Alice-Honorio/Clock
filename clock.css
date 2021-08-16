@@ -1,0 +1,34 @@
+body {
+  background-image: linear-gradient( #FFBBFF, #8B668B);
+  margin: 0;
+  padding: 0;
+}
+
+.clock {
+  border: 2px solid;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.display {
+  background-color: black;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid #7CFC00;
+  font-size: 7rem;
+  font-family: 'Qahiri', sans-serif;
+}
+
+footer {
+  font-size: 2rem;
+  margin-top: 10px;
+  color: #333;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
